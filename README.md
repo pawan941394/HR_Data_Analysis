@@ -23,3 +23,73 @@ Welcome to the HR Data Analysis project repository. This project utilizes Tablea
 Feel free to explore the project's code, visualizations, and findings. We welcome contributions, suggestions, and collaboration from the community to further enhance our understanding of HR data.
 
 
+## Let's Start building this with Tableau first  
+
+1.  Counting Total Employess
+
+Query : 
+
+```select count(distinct emp_no) as Employee_Count from hrdata;```
+
+
+2.  Counting Total Attrition 
+
+Query : 
+
+```select count(attrition) as Attrition_Count from hrdata where attrition = 1 ;```
+
+
+3. Counting Attrition Rate
+   
+Query : 
+
+```select ( (select count(attrition) from hrdata where attrition = 1 )*1.0 /  sum(employee_count))*100  as 'Attrition Rate' from hrdata;```
+
+
+4. Active Employees 
+
+Query : 
+
+```select count(active_employee)  as 'Avg. Age' from hrdata where active_employee = 1; ```
+
+
+5. Avgerage Age
+
+Query : 
+
+```select sum(age) / count(emp_no) as 'Active Employee' from hrdata where active_employee = 1;```
+
+
+6. Attrition By Gender 
+
+Query : 
+
+```select gender , count(attrition) as Attrition_Count from hrdata where attrition= 1 group by gender  order by count(attrition) desc;```
+
+
+7. Department wise Attrition 
+
+Query : 
+
+```select department , count(attrition) as Attrition_Count from hrdata  where attrition= 1  group by department  order by count(attrition) desc;```
+
+
+8. No of employees by Age Group 
+
+Query : 
+
+```select age , count(attrition) as Attrition_Count from hrdata where attrition= 1 group by age order by count(attrition) desc ;```
+
+ 
+9. Education Field Wise Attrition
+
+Query : 
+
+```select education , count(attrition) as Attrition_Count from hrdata where attrition= 1 group by education order by count(attrition) desc;```
+
+
+10. Job Satisfaction Rating
+
+Query : 
+
+```select  job_role , job_satisfaction, count(job_satisfaction) as 'Total Rating'  from hrdata group by job_satisfaction, job_role ;```
