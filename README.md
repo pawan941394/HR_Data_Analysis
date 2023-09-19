@@ -23,7 +23,80 @@ Welcome to the HR Data Analysis project repository. This project utilizes Tablea
 Feel free to explore the project's code, visualizations, and findings. We welcome contributions, suggestions, and collaboration from the community to further enhance our understanding of HR data.
 
 
-## Let's Start building this with Tableau first  
+## Let's Start Visualization with Tableau First --
+
+
+1.  Counting Total Employess
+   
+![1 employee_count](https://github.com/pawan941394/HR_Data_Analysis/assets/63099276/b534cfda-df17-4755-8582-1cd71f612de3)
+
+
+
+2.  Counting Total Attrition 
+
+![attrition count](https://github.com/pawan941394/HR_Data_Analysis/assets/63099276/b134ee6c-cca5-46c2-9b4a-909293077f2a)
+
+
+
+3. Counting Attrition Rate
+   
+
+![attrition rate](https://github.com/pawan941394/HR_Data_Analysis/assets/63099276/dddb7b82-7672-4168-af1d-2fe6fe41a11b)
+
+
+4. Active Employees 
+
+
+![active employees](https://github.com/pawan941394/HR_Data_Analysis/assets/63099276/e91a3c24-2106-4ea3-9d02-ec1439f0b5a1)
+
+
+5. Avgerage Age
+
+![average age](https://github.com/pawan941394/HR_Data_Analysis/assets/63099276/f87adc51-cf3a-4dd0-87f3-0bd6a281f316)
+
+
+6. Attrition By Gender 
+
+![attrition by gender](https://github.com/pawan941394/HR_Data_Analysis/assets/63099276/2379dfac-7960-481d-a76c-68d53a50a2c9)
+
+
+7. Department wise Attrition 
+
+![department wise attrition](https://github.com/pawan941394/HR_Data_Analysis/assets/63099276/78c92f0f-7e97-488a-9b04-f6a0f74e3c95)
+
+
+
+8. No of employees by Age Group 
+
+![no of employees by age group](https://github.com/pawan941394/HR_Data_Analysis/assets/63099276/96165e8f-af0c-4ed9-8018-aadc06b8f0b4)
+
+
+
+ 
+9. Education Field Wise Attrition
+
+
+![education wise attrition](https://github.com/pawan941394/HR_Data_Analysis/assets/63099276/b3769e4c-04a9-421d-8855-4c1e5b403ffa)
+
+
+10. Job Satisfaction Rating
+
+
+![job satisfication rating](https://github.com/pawan941394/HR_Data_Analysis/assets/63099276/1661b7af-52d4-46bf-b5ed-06e0151f665c)
+
+11. Attrition Rate by gender for different Age Groups
+
+    
+![attrition rate by gender for different age group](https://github.com/pawan941394/HR_Data_Analysis/assets/63099276/5d54fe76-137a-4063-be42-fc6cee557a50)
+
+
+12. Final Result Dashboard 
+
+![final Dashboard](https://github.com/pawan941394/HR_Data_Analysis/assets/63099276/106f5583-fea9-42c2-8486-ae4f715b046b)
+
+
+
+## Let's Start Verify this Data with SQL  
 
 1.  Counting Total Employess
 
