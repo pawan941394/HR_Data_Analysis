@@ -27,7 +27,9 @@ Feel free to explore the project's code, visualizations, and findings. We welcom
 
 
 1.  Counting Total Employess
-   
+<br>
+<br>
+<br>
 ![1 employee_count](https://github.com/pawan941394/HR_Data_Analysis/assets/63099276/b534cfda-df17-4755-8582-1cd71f612de3)
 
 
