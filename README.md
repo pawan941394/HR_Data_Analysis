@@ -34,6 +34,7 @@ Feel free to explore the project's code, visualizations, and findings. We welcom
 
 2.  Counting Total Attrition 
 
+
 ![attrition count](https://github.com/pawan941394/HR_Data_Analysis/assets/63099276/b134ee6c-cca5-46c2-9b4a-909293077f2a)
 
 
